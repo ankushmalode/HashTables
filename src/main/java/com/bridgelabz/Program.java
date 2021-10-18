@@ -20,7 +20,7 @@ public class Program {
         String sentence2 = "Paranoids are not paranoid because they are paranoid but" +
                 "because they keep putting themselves deliberately into paranoid avoidable situations";
         String[] b = sentence2.toLowerCase().split(" ");
-        System.out.println("\n"+Arrays.toString(a));
+        System.out.println("\n"+Arrays.toString(b));
         Map<String,Integer> words2 = new HashMap<>();
         for (String word : b) {
             if (words2.containsKey(word)) {
